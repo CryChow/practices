@@ -1,0 +1,14 @@
+.div1{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    border: 1px solid black;
+}
+.div2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    border: 1px solid black;
+}

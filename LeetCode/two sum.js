@@ -12,7 +12,7 @@ const twoSum1 = (nums, target) => {
         }
     }
 };
-//利用哈希表查询优化代码
+//先用一个循环体创建一个哈希表，再循环一次，查找哈希表
 const twoSum2 = (nums, target) => {
    let arr = [],
        length = nums.length;

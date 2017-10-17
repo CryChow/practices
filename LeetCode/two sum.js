@@ -12,7 +12,7 @@ const twoSum1 = (nums, target) => {
         }
     }
 };
-
+//利用哈希表查询优化代码
 const twoSum2 = (nums, target) => {
    let arr = [],
        length = nums.length;
